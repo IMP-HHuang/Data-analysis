@@ -2,7 +2,6 @@
 cc=$1
 
 function a_sub {
-	#./$cc $i > /dev/null 2>&1
 	echo "Start run $i at `date`">>run.txt
 	$cc $i > xx.txt 2>&1
 }
@@ -25,10 +24,10 @@ do
     echo >&6
 done
 
-for ((i=2;i<=95;i++))
+for ((i=$2;i<=$3;i++))
 do
 #		if [$i -ge 63 -a $i -le 66]
-		if (($i >= 63 & $i <= 66))
+		if (($i >= 0 & $i <= 0))
 		then
 			echo "The file of run $i is broken !">>run.txt
 #		elif [$i -ge 0 -a $i -le 0]
