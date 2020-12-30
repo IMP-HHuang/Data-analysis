@@ -1,6 +1,6 @@
 #include "tree.h"
 
-bool SortDS(Detector &a, Detector &b)
+bool SortDS(const Detector &a, const Detector &b)
 {
 	return a.raw > b.raw;
 }
