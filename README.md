@@ -1,6 +1,6 @@
 # Data-analysis
 
-  - [Decode]
+  - [Decode](./位运算/README.md)
   - PKUXIADAQ
     - [Correlation](./PKUXIADAQ/correlation)
     - [Draw](./PKUXIADAQ/Draw)
