@@ -1,5 +1,6 @@
 # Data-analysis
 
+  - [Decode]
   - PKUXIADAQ
     - [Correlation](./PKUXIADAQ/correlation)
     - [Draw](./PKUXIADAQ/Draw)
