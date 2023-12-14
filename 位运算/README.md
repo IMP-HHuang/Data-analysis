@@ -1,4 +1,4 @@
-# bit（位）和byte关系
+# bit（位）和byte(字节)关系
   - 1 byte = 8 bit
   - int --> 4 byte --> 32 bit
 # 32-bit Decode
