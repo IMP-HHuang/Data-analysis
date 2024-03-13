@@ -1,7 +1,7 @@
 # Data-analysis
 
   - [Decode](./位运算/README.md)
-  - PKUXIADAQ
+  - [PKUXIADAQ](https://github.com/wuhongyi/PKUXIADAQ)
     - [Correlation](./PKUXIADAQ/correlation)
     - [Draw](./PKUXIADAQ/Draw)
   - [GSIDAQ](./GSIDAQ)
