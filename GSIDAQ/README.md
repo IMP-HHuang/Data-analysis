@@ -7,4 +7,4 @@
     - FairRoot
   - Tmaex Fine time calibration
     $$\frac{\Delta t}{T} = \frac{N(\Delta t)}{N_{sum}}$$
-    where, $T$ = 5 ns is the coarse time, $\Delta t$ is the time span of one bin of fine time, $N(\Delta t)$ is the count in the correaponding bin of fine time and $N_{sum}$ is count in all bins of fine time.
+    where, $T$ = 5 ns is the coarse time, $\Delta t$ is the time span of one bin of fine time, $N(\Delta t)$ is the count in this bin  and $N_{sum}$ is count in all bins of fine time.
