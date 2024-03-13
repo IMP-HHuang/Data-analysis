@@ -1,0 +1,4 @@
+Name		ProID	WhitRabbitMapId		Label	Module	Enable
+BetaPlastic	80	0x1400			bp 	Tamex	1
+FATIMA		75	0x1600			fatima  Tamex	1
+LYSO		20	0x0			lyso	QDC	1
