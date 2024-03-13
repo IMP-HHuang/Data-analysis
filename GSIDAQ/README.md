@@ -6,4 +6,4 @@
       - The informations of detectors are in [Par/DetectorInf.txt](Go4/AnaCode/DecodeSubSystem1.1/Par/DetectorInf.txt)
     - FairRoot
   - Tmaex Fine time calibration
-    $$\frac{\Delta t}{T} = \frac{N(\Deltat)}{N_{sum]}$$
+    $$\frac{\Delta t}{T} = \frac{N(\Deltat)}{N_{sum}}$$
