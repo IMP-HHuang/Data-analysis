@@ -9,16 +9,24 @@
     - [FairRoot](https://github.com/FairRootGroup/FairRoot)
     - Decode : [ucesb](https://github.com/op3/ucesb)
       - [c4root](https://github.com/cej25/c4Root)
-        - Evrioment
+        - Environment
           ```js
             export SIMPATH=/path/to/fairsoft
             export FAIRROOTPATH=/path/to/fairroot
             export UCESB_DIR=/path/to/ucesb
             git clone https://github.com/cej25/c4Root.git
             mkdir build
+            ## produce ucesb code
+            cd ../c4Root/unpack/exps/
+            make s100 -j 10
             cd build
+            ## environment
             cmake ../c4Root
-            . ./config.sh
+            .   ./config.sh
+            make 
+            ## run
+            cd ../../macros/despec/
+            root -l -b s100_online.C
             make -j
         ```
         - [c4data/special subsystem/](https://github.com/cej25/c4Root/tree/main/c4data) : Raw data, calibartion and map parameters
