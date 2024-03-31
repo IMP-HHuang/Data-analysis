@@ -1,0 +1,7 @@
+Name		ProID WhitRabbitMapId Label	 Module	Nbin NModule Enable
+BetaPlastic	80	  0x500			  bp 	 nsTamex	 9       1
+FATIMA		75	  0x1600		  fatima psTamex	 4       1
+AIDA       	90	  0x700			  aida   FEE         2       1
+DEGAS       60    0x400           ge     Febex       3       1
+BGO		    100	  0x1900		  bgo    nsTamex	 1       1
+LYSO		20	  0x0			  lyso	 QDC	     3       0

@@ -1,0 +1,1 @@
+TamexId 	 ChId 	 BinId 	 Vlaue (5 ns)

@@ -1,0 +1,28 @@
+
+DoTamexFineTimeCali 0
+
+RefreshTime 2
+
+port 8001
+
+ipfPath /mnt/f/DAQ/GSIDAQ/data/
+#ipfPath /u/hhao/lustre/despec/dryrunmarch24/
+#ipfPath /u/hhao/lustre/gamma/huanghao/go4/DecodeLmd/data/
+
+#ipfName trans://lxg1257
+#ipfName trans://x86L-87
+#ipfName s450f0075_0094.lmd
+#ipfName Au_beam_0003_0008.lmd
+ipfName 60Co_23Jan0188.lmd 
+#ipfName 152Eu_calib_2003_0001.lmd
+#ipfName bplast_test.lmd
+#ipfName it1_0006_0006.lmd
+#ipfName Eu152_19March_0001.lmd
+#ipfName it1_0006_0006.lmd
+
+#output file name
+opfName ./data/out
+
+UcesbPath /mnt/f/DAQ/GSIDAQ/ucesb/ucesb/
+#UcesbPath /u/hhao/ucesb/
+#UcesbPath /u/despec/hhao/ucesb/
