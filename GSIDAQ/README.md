@@ -1,7 +1,7 @@
 # Data ana
   - LMD file Decode/Online code
     - [CERNRoot](https://github.com/root-project/root)
-      - [DecodeAndOnline/NearLine](https://github.com/IMP-HHuang/Data-analysis/tree/main/GSIDAQ/CERNRoot/code)
+      - [DecodeAndOnline/NearLine](https://github.com/IMP-HHuang/Data-analysis/tree/main/GSIDAQ/CERNRoot)
         - [Detector configuration](https://github.com/IMP-HHuang/Data-analysis/blob/main/GSIDAQ/CERNRoot/code/Par/DetectorInf.txt)
         - [Parameters](https://github.com/IMP-HHuang/Data-analysis/blob/main/GSIDAQ/CERNRoot/code/Par/UserDefine.txt)
     - [Go4](https://github.com/go4org/go4)
