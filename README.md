@@ -12,3 +12,5 @@
       - tree->Draw("ye:yzid>>yze(60, 0, 60, 510, 0.0, 510.0)", "p==\\"gamma\\"");
     - TTree::Draw()：数组下标 Iteration$
       - tree->Draw("data:Iteration$", "", "*", 1, 7)
+    - THttpServer::Register("Path", THD)
+      - path（包括子path） 不能以数字开头 （不信你就试试！！） 
