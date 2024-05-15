@@ -13,4 +13,6 @@
     - TTree::Draw()：数组下标 Iteration$
       - tree->Draw("data:Iteration$", "", "*", 1, 7)
     - THttpServer::Register("Path", THD)
-      - path（包括子path） 不能以数字开头 （不信你就试试！！） 
+      - path（包括子path） 不能以数字开头 （不信你就试试！！）
+    - Error in <TFile::WriteTObject>: Directory ***.root is not writable
+      - 这不是权限问题，是你文件close早了！！！  
