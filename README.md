@@ -1,6 +1,7 @@
 # Data-analysis
 
   - [Decode](./位运算/README.md)
+  - [GUI](./code/GUI)
   - [PKUXIADAQ](https://github.com/wuhongyi/PKUXIADAQ)
     - [Correlation](./PKUXIADAQ/correlation)
     - [Draw](./PKUXIADAQ/Draw)
