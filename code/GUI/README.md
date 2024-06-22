@@ -1,4 +1,4 @@
-# GUI written by using ROOT clss
+# GUI written by using [ROOT class](https://root.cern.ch/root/htmldoc/guides/users-guide/WritingGUI.html)
 
   - [Energy calibration](./Cali)
   - $\gamma$ - $\gamma$ [coincidence](./GammaGammaGate)
