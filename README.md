@@ -17,7 +17,7 @@
       - path（包括子path） 不能以数字开头 （不信你就试试！！）
     - Error in <TFile::WriteTObject>: Directory ***.root is not writable
       - 这不是权限问题，是你文件close早了！！！
-    - Get TGraph
+    - TTree::Draw()：Get TGraph
       ```cpp
       n = tree->Draw("YSO0D.data:Iteration$>>tr", "", "", 167, 1);
       TGraph *g = new TGraph(n,tree->GetV2(),tree->GetV1());
